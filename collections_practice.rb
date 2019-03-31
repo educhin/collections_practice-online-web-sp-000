@@ -39,4 +39,5 @@ def find_a(array)
       word
     end
   end
+  array.compact
 end
