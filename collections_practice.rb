@@ -22,3 +22,11 @@ end
 def reverse_array(ints)
   ints.reverse!
 end
+
+def kesha_maker(array)
+  array.each do |word|
+    el = word.split
+    el[2] = "$"
+    el.join
+  end
+end
